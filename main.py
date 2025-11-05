@@ -6,11 +6,11 @@ from tincan.visualization import plot_simulation_summary, plot_ganancia_comparis
 
 def main():
     # Parámetros para una simulación individual
-    material = 'acero'
-    L0 = 0.01
-    T_axial = 200.0
+    material = 'cuerda3'
+    L0 = 50
+    T_axial = 20.0
     A0 = 1e-6
-    T_total = 0.08
+    T_total = 10
     Nx = 160
     CFL = 0.9
     modo_barrido = 'linear'

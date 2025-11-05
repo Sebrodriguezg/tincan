@@ -12,28 +12,34 @@
 # Las unidades son: E [Pa], rho0 [kg/m³], D [m]
 
 cuerdas = {
-    'acero': {
-        'E': 2.1e11,   # Pa
-        'rho0': 7850,  # kg/m³
-        'D': 1e-3,     # m (1 mm)
+    'cuerda1': {
+        'E': 5.96e06,   # Pa
+        'rho0': 444.839,  # kg/m³
+        'D': 3.05e-3,     # m (1 mm)
         'alpha': 0.001 # amortiguamiento leve
     },
-    'aluminio': {
-        'E': 6.9e10,
-        'rho0': 2700,
-        'D': 1e-3,
+    'cuerda2': {
+        'E': 1.67e07,
+        'rho0': 529.390,
+        'D': 2.03e-3,
         'alpha': 0.001
     },
-    'cobre': {
-        'E': 1.1e11,
-        'rho0': 8960,
-        'D': 1e-3,
+    'cuerda3': {
+        'E': 5.12e08,
+        'rho0': 537.373,
+        'D': 0.39e-3,
         'alpha': 0.001
     },
-    'nylon': {
-        'E': 3.0e9,
-        'rho0': 1150,
-        'D': 1e-3,
+    'cuerda4': {
+        'E': 8.0e7,
+        'rho0': 320.495,
+        'D': 0.53e-3,
         'alpha': 0.002
-    }
+    },
+    'cuerda5': {
+        'E': 9.36e08,
+        'rho0': 994.719,
+        'D': 0.32e-3,
+        'alpha': 0.001
+    },
 }
